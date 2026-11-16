@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>بتقدر تجاوبني؟ | اختار المسار الصح</title>
+<meta name="description" content="ورشة اختار المسار الصح مع KrakenTeam: نبني تطبيق كامل قدام عينك، نكشف كل تخصص IT من جوا، ونساعدك تعرف وين طريقك. الخميس 19/11 بمدرج القدس.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="بتقدر تجاوبني؟ | اختار المسار الصح">
+<meta property="og:description" content="ورشة اختار المسار الصح مع KrakenTeam: نبني تطبيق كامل قدام عينك، نكشف كل تخصص IT من جوا. الخميس 19/11 بمدرج القدس.">
+<meta property="og:image" content="og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="بتقدر تجاوبني؟ | اختار المسار الصح">
+<meta name="twitter:description" content="ورشة اختار المسار الصح مع KrakenTeam: نبني تطبيق كامل قدام عينك، نكشف كل تخصص IT من جوا. الخميس 19/11 بمدرج القدس.">
+<meta name="twitter:image" content="og-image.png">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23FF9F1C' font-family='monospace' font-weight='700'%3E%7B%7D%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@600;700;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<main>
+
+  <!-- 1) COUNTDOWN — the opening hook -->
+  <section class="section countdown-hero" id="countdown-section">
+    <div class="container">
+      <h2 class="section-title countdown-hero__title">⏳ باقي على الورشة</h2>
+      <div class="countdown" id="countdown">
+        <div class="countdown__box">
+          <span class="countdown__num" id="cd-days">00</span>
+          <span class="countdown__label">أيام</span>
+        </div>
+        <div class="countdown__box">
+          <span class="countdown__num" id="cd-hours">00</span>
+          <span class="countdown__label">ساعات</span>
+        </div>
+        <div class="countdown__box">
+          <span class="countdown__num" id="cd-minutes">00</span>
+          <span class="countdown__label">دقائق</span>
+        </div>
+        <div class="countdown__box">
+          <span class="countdown__num" id="cd-seconds">00</span>
+          <span class="countdown__label">ثواني</span>
+        </div>
+      </div>
+      <p class="countdown__status" id="countdownStatus" hidden></p>
+    </div>
+  </section>
+
+  <!-- 2) HERO -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <span class="pill">{ KrakenTeam }</span>
+
+      <div class="terminal" role="img" aria-label="نافذة طرفية تعرض سؤال: شو بتختار؟ وليش؟">
+        <div class="terminal__bar">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+          <span class="terminal__title">student@university: ~</span>
+        </div>
+        <pre class="terminal__body" dir="ltr" id="terminalBody" aria-hidden="true"></pre>
+      </div>
+
+      <h1 class="headline" id="headline">
+        <span class="headline__fade" id="headlineText">
+          <span class="headline__off">بتقدر</span>
+          <span class="headline__amber">تجاوبني؟</span>
+        </span>
+      </h1>
+
+      <p class="subtitle fade-up">
+        كل طالب IT بيوصل لهاد السؤال… الفرق إنه في ناس بتختار تخصصها بالحظ، وناس بتختار عن فهم.
+      </p>
+
+      <div class="event-badge fade-up" role="note" aria-label="موعد الورشة">
+        <span class="event-badge__time">12:00 – 2:00</span>
+        <span class="event-badge__sep" aria-hidden="true">•</span>
+        <span class="event-badge__meta">الخميس 19/11</span>
+        <span class="event-badge__sep" aria-hidden="true">•</span>
+        <span class="event-badge__meta">مدرج القدس</span>
+      </div>
+
+      <a class="btn btn--primary fade-up" id="heroCta" href="#" target="_blank" rel="noopener">
+        احجز مكانك الآن
+      </a>
+    </div>
+  </section>
+
+  <!-- 3) WHAT YOU'LL TAKE -->
+  <section class="section fade-up" id="takeaways">
+    <div class="container">
+      <h2 class="section-title">شو رح تاخد بساعتين؟</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/><path d="M8 14l2 2-2 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 18h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <p>نبني تطبيق كامل قدامك من الصفر لحد ما يصير أونلاين</p>
+        </div>
+        <div class="card">
+          <span class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="12" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="1.6"/><path d="M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6" stroke="currentColor" stroke-width="1.6"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <p>تشوف كل تخصص من جوا: Database، Backend، API، Frontend، Cloud، والـ AI</p>
+        </div>
+        <div class="card">
+          <span class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <p>تعرف أي مسار بيناسبك والخطوة الجاية اللي لازم تعملها</p>
+        </div>
+        <div class="card">
+          <span class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 4h8v4a4 4 0 01-8 0V4z" stroke="currentColor" stroke-width="1.6"/><path d="M4 5h4M20 5h-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 5c0 3 2 4.5 4.3 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M20 5c0 3-2 4.5-4.3 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 13v3M9 20h6M12 16h0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 20c0-1.5 1.3-2 3-2s3 .5 3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <p>مناظرة بين التخصصات، ومشهد تمثيلي، ومسابقة</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4) QUOTE -->
+  <section class="section quote-section fade-up">
+    <div class="container">
+      <blockquote class="quote">
+        إنك تتعب وإنت فاهم الطريق…
+        <br>
+        أحسن بكثير من إنك تتعب وإنت مش فاهم إشي.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- 5) BENEFITS -->
+  <section class="section fade-up" id="benefits">
+    <div class="container">
+      <h2 class="section-title">ومع الورشة كمان</h2>
+      <ul class="benefits">
+        <li>شهادة معتمدة من الجامعة</li>
+        <li>احتساب ساعات عمل تطوعي</li>
+        <li>جوائز قيّمة ومفيدة</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6) DETAILS CARD -->
+  <section class="section fade-up" id="details">
+    <div class="container">
+      <div class="details-card">
+        <h3 class="details-card__title">اختار المسار الصح</h3>
+        <ul class="details-list">
+          <li><span class="details-list__icon" aria-hidden="true">📅</span> الخميس 19/11/2026</li>
+          <li><span class="details-list__icon" aria-hidden="true">⏰</span> 12:00 – 2:00</li>
+          <li><span class="details-list__icon" aria-hidden="true">📍</span> مدرج القدس</li>
+          <li><span class="details-list__icon" aria-hidden="true">🎤</span> تقديم: زهير عامر × أحمد خطاب</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7) FINAL CTA -->
+  <section class="section final-cta fade-up" id="final-cta">
+    <div class="container">
+      <p class="final-cta__headline">الأماكن محدودة… لا تخلّيها تفوتك</p>
+      <a class="btn btn--primary btn--big" id="finalCta" href="#" target="_blank" rel="noopener">انضم لقروب الورشة</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- 8) STICKY BOTTOM BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="#" target="_blank" rel="noopener" id="stickyCta" class="sticky-bar__link">احجز مكانك</a>
+</div>
+
+<!-- 9) FOOTER -->
+<footer class="footer">
+  <span class="footer__brand">{ KrakenTeam }</span>
+  <span class="footer__sub">جامعة الزرقاء</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
